@@ -10,7 +10,7 @@ The quantum advantage is to efficiently turn a 1-dimensional time series into a 
 
 Utilized Qiskit, IBM's open-source quantum computing framework, for developing and simulating quantum circuits. The diagram is as follows:
 
-![Quantum Circuit](Quantum_Circuit.png)
+![Quantum Circuits](Quantum_Circuits.png)
 
 After retrieving time series data from specific stocks, the data is fed into the quantum circuit, where two rotational gates are applied to try and assume the same effect as calculating cos(a+b) for the first circuit, and sin(a-b) for the second. The computed trigonometric functions provide insights into the angular relationships within the data, which are then translated into pixel intensities to construct the QGAF images. By running these circuits multiple times and averaging the results, we can improve the accuracy of our calculations. These circuits help to identify relationships in time series data and are essential in creating QGAF images.
 

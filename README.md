@@ -20,7 +20,7 @@ The data is cleaned by removing missing or anomalous data points to ensure data 
 
 Visualization:
 
-INSERT IMG
+![Dataset Graph](Dataset_Graph.png)
 
 The simulations are conducted using Qiskit's simulator backend to generate QGAF images. 
 

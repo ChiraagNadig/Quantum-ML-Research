@@ -30,18 +30,22 @@ Visualization:
 
 ### Results
 
-The simulations are conducted using Qiskit's simulator backend to generate QGAF images. 
+The simulations are conducted using Qiskit's simulator backend to generate QGAF images.
 
-Our model achieved an accuracy rating of XX% and a validation accuracy of XX%. On top of that, we observed a consistent decrease in training and validation loss over epochs, indicating effective learning. We also ensured the dataset was balanced between up and down labels. 
+Our model achieved an accuracy rating of 70% for training and a validation accuracy of 47%. On top of that, we observed a consistent decrease in training and validation loss over epochs, indicating effective learning. We also ensured the dataset was balanced between up and down labels.
 
 Here are some other performance metrics:
-The training accuracy is XX
-The validation accuracy is XX
-The testing accuracy is XX
-The precision is XX
-The recall is XX
-The F1-score is XX
-The confusion matrix is XX
+
+The training accuracy is 70%
+The validation accuracy is 47%
+The testing accuracy is 69%
+The precision is 71%
+The recall is 68%
+The F1-score is 69%
+
+The confusion matrix follows:
+
+![Confusion Matrix](Confusion_Matrix.png)
 
 ### Conclusion
 
@@ -49,25 +53,20 @@ In summary, we successfully developed a multi-input CNN model enhanced with QGAF
 
 The broader impact of our work demonstrates the potential of quantum machine learning in financial forecasting, offering a novel approach to handling complex market data. The use of QGAFS provides distinctive representations that can provide powerful insights as quantum hardware improves over time.
 
-We have numerous ideas that could act as potential improvements or extensions to our research. Because it is a multi-input CNN, we intend to incorporate more tickers and extend the date range to enhance model robustness. We should transition from simulation to actual Quantum Processing Units to evaluate real-world performance gains. This could potentially be done on a local quantum computer such as IONQ. Another approach is to experiment with more sophisticated neural network architectures and hybrid quantum-classical models. This could include a QCNN or a pre-trained model such as ResNet and EfficientNet for feature extraction. 
+We have numerous ideas that could act as potential improvements or extensions to our research. Because it is a multi-input CNN, we intend to incorporate more tickers and extend the date range to enhance model robustness. We should transition from simulation to actual Quantum Processing Units to evaluate real-world performance gains. This could potentially be done on a local quantum computer such as IONQ. Another approach is to experiment with more sophisticated neural network architectures and hybrid quantum-classical models. This could include a QCNN or a pre-trained model such as ResNet and EfficientNet for feature extraction.
 
 ### References
 
 Devlin, J., Chang, M.-W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. arXiv.
-https://arxiv.org/abs/1810.03787
+<https://arxiv.org/abs/1810.03787>
 
-Kingma, D. P., & Ba, J. (2015). Adam: A method for stochastic optimization. arXiv. https://arxiv.org/abs/1506.00327
+Kingma, D. P., & Ba, J. (2015). Adam: A method for stochastic optimization. arXiv. <https://arxiv.org/abs/1506.00327>
 
-LurreMcFly. (n.d.). ERP prediction contest. GitHub. https://github.com/LurreMcFly/erp_prediction_contest/tree/master
+LurreMcFly. (n.d.). ERP prediction contest. GitHub. <https://github.com/LurreMcFly/erp_prediction_contest/tree/master>
 
 Schwab. (n.d.). Bollinger Bands®: What they are and how to use them. Charles Schwab.
-https://www.schwab.com/learn/story/bollinger-bands-what-they-are-and-how-to-use-them#:~:text=Bollinger%20Bands%C2%AE%20help%20you,potential%20entry%20and%20exit%20points
+<https://www.schwab.com/learn/story/bollinger-bands-what-they-are-and-how-to-use-them#:~:text=Bollinger%20Bands%C2%AE%20help%20you,potential%20entry%20and%20exit%20points>
 
-Spall, J. C. (1998). An overview of the simultaneous perturbation method for efficient optimization. Johns Hopkins University Applied Physics Laboratory. https://www.jhuapl.edu/SPSA/PDF-SPSA/Spall_An_Overview.PDF
+Spall, J. C. (1998). An overview of the simultaneous perturbation method for efficient optimization. Johns Hopkins University Applied Physics Laboratory. <https://www.jhuapl.edu/SPSA/PDF-SPSA/Spall_An_Overview.PDF>
 
-Tao, J., Chen, W., Gou, Z., & Zhang, Y. (2023). Quantum-enhanced forecasting for financial market prediction. arXiv. https://arxiv.org/abs/2310.07427
-
-
-
-
-
+Tao, J., Chen, W., Gou, Z., & Zhang, Y. (2023). Quantum-enhanced forecasting for financial market prediction. arXiv. <https://arxiv.org/abs/2310.07427>

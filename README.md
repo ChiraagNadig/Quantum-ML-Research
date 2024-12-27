@@ -45,7 +45,7 @@ The F1-score is 69%
 
 The confusion matrix follows:
 
-![Confusion Matrix](Confusion_Matrix.png)
+<img src="Confusion_Matrix.png" alt="Confusion Matrix" width="300" height="200">
 
 ### Conclusion
 

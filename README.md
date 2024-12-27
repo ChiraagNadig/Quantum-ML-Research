@@ -26,7 +26,7 @@ The data is cleaned by removing missing or anomalous data points to ensure data 
 
 Visualization:
 
-<img src="Dataset_Graph.png" alt="Dataset Graph" width="500" height="300">
+<img src="Dataset_Graph.png" alt="Dataset Graph" width="700" height="350">
 
 ### Results
 
@@ -45,7 +45,7 @@ The F1-score is 69%
 
 The confusion matrix follows:
 
-<img src="Confusion_Matrix.png" alt="Confusion Matrix" width="500" height="500">
+<img src="Confusion_Matrix.png" alt="Confusion Matrix" width="375" height="250">
 
 ### Conclusion
 
